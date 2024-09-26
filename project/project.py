@@ -73,7 +73,7 @@ def weather_info(api):
 
 
 def telegram_bot():
-    TOKEN = '7037608071:AAHUJ_0mKtZQ2oYQo658Tw53XWZJrT5n-_w'
+    TOKEN = '' # Add your telegram bot TOKEN here
     bot = telebot.TeleBot(TOKEN, parse_mode=None)
 
     @bot.message_handler(commands=['start'])
